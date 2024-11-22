@@ -273,7 +273,7 @@ Products
 .products {
   background: var(--clr-grey-10);
 }
-.product article {
+.products article {
   padding: 2rem 0;
 }
 .product-text {
@@ -297,6 +297,11 @@ Products
     float: left;
     width: 50%;
     padding-right: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .product {
+    width: 33%;
   }
 }
 /*
